@@ -6,7 +6,12 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #e9e9e9;
+      background-image: url('http://github.io/kakaomames/h/back.png');
+      background-repeat: no-repeat; /* 画像を繰り返さない */
+      background-size: cover; /* 画面全体に表示されるように調整 */ 
+      background-attachment: fixed; /* スクロールしても画像を固定 */
+      /* ------------------------------ */
+      background-color: #e9e9e9; /* 画像読み込みエラー時の代替色（または元の色） */
       color: #333;
       padding: 30px;
     }
@@ -148,3 +153,4 @@
 </body>
 
 </html>
+
